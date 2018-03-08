@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="../css/css.main">
+</head>
+
+<body>
+	<main>
+
+		<section class="hangman">
+
+			<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g>
+	<rect x="476" y="401" width="354" height="11"/>
+</g>
+<rect x="631" y="117" width="22" height="289"/>
+<rect x="642" y="117" width="108" height="11"/>
+<rect x="744" y="121" width="6" height="40"/>
+<circle id="head" class="st0" cx="746.5" cy="190.5" r="31"/>
+<rect id="body" x="743.5" y="221.5" class="st0" width="6" height="142"/>
+<rect id="right_arm" x="682.5" y="253.5" class="st0" width="61" height="3"/>
+<rect id="left_arm_1_" x="749.5" y="253.5" class="st0" width="61" height="3"/>
+<rect id="right_leg" x="737.1" y="377" transform="matrix(0.6625 0.7491 -0.7491 0.6625 542.2206 -443.5406)" class="st0" width="52.4" height="5.8"/>
+<rect id="left_leg" x="703.1" y="377" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 1513.6825 132.8995)" class="st0" width="52.4" height="5.8"/>
+</svg>
+
+<section class="word-and-guess">
+	<p class="current-word">
+	</p>
+	<label for="myLetter">Enter Your Guess!</label>
+	<input id="myLetter" maxlength="1" type="text" class="guess" pattern="a-zA-Z">
+	<button>Guess!</button>
+
+	<i class="wrong-letters-label">You guessed these already!</i>
+	<p class="wrong-letters"></p>
+</section>
+
+<section class="reset-screen">
+	<h3>Game Over! You ran out of guesses!</h3>
+	<button id="resetButton">Try again</button>
+</section>
+
+
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
